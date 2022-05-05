@@ -63,7 +63,7 @@ function Scroller (props)
         <h1>Images</h1>
         {images.map((image,index)=>{
           return (
-              <VisibilitySensor key={index}>
+              <VisibilitySensor key={index} partialVisibility={true}>
                 {({ isVisible }) => {
                   return (
                     <div>
