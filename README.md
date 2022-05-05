@@ -110,3 +110,8 @@ The mapping function of the Imagecells in the scroller also contains a "visibili
 
 This visibility sensor conditionally renders an image cell with the image or a completely empty cell with no data depending on the image cell currently being visible to the user.
 This means that if the user is only seeing a certain bit of data at page 9, the data all the way back in page 1 will not be rendered and a placeholder componenet will be rendered in its place.
+
+# Packages
+- React bootstrap to add cool looking componenets and improve the UI
+- localstorage-ttl to store api data in local storage
+- react-visibility-sensor to conditionally render on the visible elements
